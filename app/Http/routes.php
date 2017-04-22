@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "StaticPagesController@home");
+Route::get('/notes', "StaticPagesController@notes");
+Route::get('/pdf', "StaticPagesController@pdf");

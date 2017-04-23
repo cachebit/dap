@@ -14,3 +14,6 @@
 Route::get('/', "StaticPagesController@home");
 Route::get('/notes', "StaticPagesController@notes");
 Route::get('/pdf', "StaticPagesController@pdf");
+
+//notes
+Route::get('/notes/{types}/{series}/{title}', 'NotesController@show');

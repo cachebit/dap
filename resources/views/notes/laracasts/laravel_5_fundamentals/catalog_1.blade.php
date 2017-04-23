@@ -7,7 +7,7 @@
   <tbody>
     <tr>
       <td>01</td>
-      <td><a href="/01_meet_composer_from_laracasts_laravel_fundamental">认识 composer</a></td>
+      <td><a href="/notes/laracasts/laravel_5_fundamentals/01_meet_composer">认识 composer</a></td>
       <td>无</td>
     </tr>
     <tr>

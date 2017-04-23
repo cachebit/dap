@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>@yield('title', 'CPComic!') - 记录和分享 Laravel 视频教程笔记。</title>
+    <title>@yield('title', 'CPComic!') - Larapad 记录和分享 Laravel 视频教程笔记。</title>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 http://www.bootcdn.cn/ -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- 最新版本的 jquery 文件 http://www.bootcdn.cn/ -->

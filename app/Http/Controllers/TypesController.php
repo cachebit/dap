@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class NotesController extends Controller
+class TypesController extends Controller
 {
-    public function show($type, $serie, $title )
+    public function index($type)
     {
-      return view('notes.'.$type.'.'.$serie.'.'.$title);
+      return view('notes.'.$type);
     }
 }

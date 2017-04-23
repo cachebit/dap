@@ -7,10 +7,10 @@
   <tbody>
     <tr>
       <td>01</td>
-      <td>Advanced Eloquent</td>
-      <td>未完结</td>
+      <td><a href="/notes/laracasts/laravel_5_fundamentals">Laravel 5 fundamentals</a></td>
+      <td>完结</td>
     </tr>
-    <tr>
+    <!-- <tr>
       <td>02</td>
       <td>Billing with Stripe</td>
       <td>未完结</td>
@@ -104,6 +104,6 @@
       <td>20</td>
       <td>Billing with Stripe</td>
       <td>未完结</td>
-    </tr>
+    </tr> -->
   </tbody>
 </table>

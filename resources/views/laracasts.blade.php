@@ -1,11 +1,14 @@
 @extends('app')
-@section('title', 'laravel视频教程_laracasts视频_laracasts教程')
+@section('title', 'Laracasts 官方网站')
 
 @section('content')
 <div class="col-md-3">
   @include('app.left')
 </div>
 <div class="col-md-6">
+  <div class="well">
+    <a href="https://laracasts.com" rel="nofollow" alt="Laracasts 官网链接">点击进入>> Laracasts 官网</a>
+  </div>
   @include('notes._lastest')
 
   @include('notes._promote')

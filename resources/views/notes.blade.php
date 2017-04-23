@@ -6,7 +6,7 @@
   @include('app.left')
 </div>
 <div class="col-md-6">
-  @include('notes.laracasts')
+  @include('notes.index')
 </div>
 <div class="col-md-3">
   @include('app.declear')

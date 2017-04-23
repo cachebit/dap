@@ -23,4 +23,9 @@ class StaticPagesController extends Controller
     {
       return view('pdf');
     }
+
+    public function laracasts()
+    {
+      return view('laracasts');
+    }
 }

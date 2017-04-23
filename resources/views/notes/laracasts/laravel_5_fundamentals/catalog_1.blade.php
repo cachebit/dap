@@ -10,7 +10,7 @@
       <td><a href="/notes/laracasts/laravel_5_fundamentals/01_meet_composer">认识 composer</a></td>
       <td>无</td>
     </tr>
-    <tr>
+    <!-- <tr>
       <td>02</td>
       <td><a href="#">虚拟机和 Homestead</a></td>
       <td>无</td>
@@ -54,6 +54,6 @@
       <td>10</td>
       <td><a href="#">表单</a></td>
       <td>无</td>
-    </tr>
+    </tr> -->
   </tbody>
 </table>

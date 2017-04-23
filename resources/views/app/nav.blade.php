@@ -17,12 +17,12 @@
         <li><a href="/notes">视频教程笔记</a></li>
         <li><a href="/pdf">PDF 电子书</a></li>
       </ul>
-      <form class="navbar-form navbar-right">
+      <!-- <form class="navbar-form navbar-right">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Laravel 5 基础教程">
         </div>
         <button type="submit" class="btn btn-default">搜索</button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>

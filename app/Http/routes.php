@@ -14,6 +14,13 @@
 Route::get('/', "StaticPagesController@home");
 Route::get('/notes', "StaticPagesController@notes");
 Route::get('/pdf', "StaticPagesController@pdf");
+Route::get('/laracasts', "StaticPagesController@laracasts");
+
+//types
+Route::get('/notes/{types}', 'TypesController@index');
+
+//series
+Route::get('/notes/{types}/{series}', 'SeriesController@index');
 
 //notes
 Route::get('/notes/{types}/{series}/{title}', 'NotesController@show');

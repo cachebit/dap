@@ -4,14 +4,7 @@
   </div>
   <div class="panel-body">
     <ul class="list-inline">
-      <li><a href="#">Laracasts</a></li>
-      <li><a href="#">Eloquent</a></li>
-      <li><a href="#">路由</a></li>
-      <li><a href="#">初级教程</a></li>
-      <li><a href="#">中级教程</a></li>
-      <li><a href="#">高级教程</a></li>
-      <li><a href="#">VUE</a></li>
-      <li><a href="#">Tutsplus</a></li>
+      <li><a href="/notes/laracasts">Laracasts</a></li>
     </ul>
   </div>
 </div>

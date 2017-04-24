@@ -24,17 +24,7 @@
     <p>正式开始。</p>
 
   </div>
-
-
-  <!-- @if(!Auth::check())
-  <div class="panel panel-danger">
-    <div class="panel-heading">
-      <p>如果您看到这段话，说明您尚未注册，无法继续阅读。</p>
-      <p>本站为了更加高效的帮助 Laravel 爱好者交流，采取邀请注册制。</p>
-      <p>请加微信：获取邀请码完成注册，24小时内回复，祝您愉快！</p>
-    </div>
-  </div>
-  @endif -->
+  
   @if(!Auth::check())
   <div>
     <p>PHP 近几年的最大进步是引入了 Composer作为包依赖管理工具 （官网链接：

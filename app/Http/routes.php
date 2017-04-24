@@ -24,3 +24,8 @@ Route::get('/notes/{types}/{series}', 'SeriesController@index');
 
 //notes
 Route::get('/notes/{types}/{series}/{title}', 'NotesController@show');
+
+//pdfs
+Route::get('/pdfs/laravel/laravel_fundamentals_chinese', function(){
+  return view('pdfs.laravel.laravel_fundamentals_chinese');
+});

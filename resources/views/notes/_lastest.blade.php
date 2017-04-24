@@ -1,4 +1,4 @@
-<div class="col-sm-12">
+<div>
   <h3>最新 Laravel 视频教程笔记</h3>
   <hr>
   <ul class="list-unstyled">

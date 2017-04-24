@@ -1,4 +1,4 @@
-<div class="panel panel-primary">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h3>Laravel 教程标签</h3>
   </div>

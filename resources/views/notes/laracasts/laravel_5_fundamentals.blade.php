@@ -17,6 +17,6 @@
   @include('notes.laracasts.laravel_5_fundamentals.catalog')
 </div>
 <div class="col-md-3">
-  @include('app.declear')
+  
 </div>
 @stop

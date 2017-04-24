@@ -16,7 +16,6 @@
   @include('pdfs._promote')
 </div>
 <div class="col-md-3">
-  @include('app.declear')
   @include('app.tags')
 </div>
 @stop

@@ -9,7 +9,6 @@
   @include('notes.index')
 </div>
 <div class="col-md-3">
-  @include('app.declear')
   @include('app.tags')
 </div>
 @stop

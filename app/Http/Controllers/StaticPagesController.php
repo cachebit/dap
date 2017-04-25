@@ -28,4 +28,9 @@ class StaticPagesController extends Controller
     {
       return view('laracasts');
     }
+
+    public function promote()
+    {
+      return view('promote');
+    }
 }

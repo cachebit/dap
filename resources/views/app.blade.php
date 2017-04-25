@@ -18,7 +18,12 @@
       @include('app.header')
 
       @include('app.nav')
+      <div class="alert alert-warning">
+        <a href="{{ route('promote') }}"><h4>福利！送 2017 最新 laravel 视频教程，限前500名注册用户。</h4></a>
+        <p>分享此篇文章至：微信朋友圈、laravel 微信群、QQ群 ，即送<b class="text-danger">30元红包</b>，详询微信，截图领取。</p>
+      </div>
       <div class="row">
+        @include('shared.messages')
         @yield('content')
       </div>
       <hr>

@@ -28,7 +28,7 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['name', 'character', 'portrait_path', 'prestige', 'experience', 'email', 'password'];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -36,4 +36,70 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    public static function boot()
+    {
+      parent::boot();
+
+      static::creating(function($user){
+        $user->activation_token = str_random(30);
+      });
+    }
+
+    public function stories()
+    {
+      return $this->hasMany('App\Story');
+    }
+
+    public function volums()
+    {
+      return $this->hasMany('App\Volum');
+    }
+
+    public function posters()
+    {
+      return $this->hasMany('App\Poster');
+    }
+
+    public function sketches()
+    {
+      return $this->hasMany('App\Sketch');
+    }
+
+    public function drafts()
+    {
+      return $this->hasMany('App\Draft');
+    }
+
+    public function settings()
+    {
+      return $this->hasMany('App\Seeting');
+    }
+
+    public function sections()
+    {
+      return $this->hasMany('App\Section');
+    }
+
+    public function webtoons()
+    {
+      return $this->hasMany('App\Webtoon');
+    }
+
+    public function single_frames()
+    {
+      return $this->hasMany('App\SingleFrame');
+    }
+
+    public function multiple_frames()
+    {
+      return $this->hasMany('App\MultipleFrame');
+    }
+
+    public function texts()
+    {
+      return $this->hasMany('App\Text');
+    }
+
+
 }

@@ -8,7 +8,7 @@
     <tr>
       <td>01</td>
       <td><a href="/notes/laracasts/laravel_5_fundamentals/01_meet_composer">认识 composer</a></td>
-      <td><span class="label label-danger">有</span></td>
+      <td><span class="label label-danger">OK</span></td>
     </tr>
   </tbody>
 </table>

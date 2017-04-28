@@ -16,6 +16,7 @@
         <li><a href="/">首页</a></li>
         <li><a href="/notes">视频教程笔记</a></li>
         <li><a href="/pdf">PDF 电子书</a></li>
+        <li><a href="/catalog">快速查找</a></li>
       </ul>
       <!-- <form class="navbar-form navbar-right">
         <div class="form-group">

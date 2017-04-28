@@ -2,12 +2,7 @@
 @section('title', '《Laravel 入门基础》 laravel_fundamentals_chinese')
 
 @section('content')
-<div class="col-md-3">
-  <h3>PDF 电子书推荐</h3>
-  <hr>
-  @include('pdfs.books._002')
-</div>
-<div class="col-md-9">
+<div class="col-md-9 col-md-push-3">
     <div class="page-header">
       <h3>《Laravel 入门基础》</h3>
       <i>编著：Summer，李锦发（Aufree）</i>
@@ -29,5 +24,10 @@
     </ul>
     <p>介绍：<a href="https://laravel-china.org/topics/3383/laravel-the-first-chinese-new-book-laravel-tutorial" rel="nofollow" target="_blank">https://laravel-china.org/topics/3383/laravel-the-first-chinese-new-book-laravel-tutorial</a></p>
     <p>购买：<a href="http://t.laravel-china.org/laravel-tutorial/5.1/buy-it" rel="nofollow" target="_blank">http://t.laravel-china.org/laravel-tutorial/5.1/buy-it</a></p>
+  </div>
+  <div class="col-md-3 col-md-pull-9">
+    <h3>PDF 电子书推荐</h3>
+    <hr>
+    @include('pdfs.books._002')
   </div>
 @stop

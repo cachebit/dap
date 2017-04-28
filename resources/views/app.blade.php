@@ -18,10 +18,15 @@
       @include('app.header')
 
       @include('app.nav')
+
+      @if(!Auth::check())
       <div class="alert alert-warning">
-        <a href="{{ route('promote') }}"><h4>福利！送 2017 最新 laravel 视频教程，限前500名注册用户。</h4></a>
-        <p>分享此篇文章至：微信朋友圈、laravel 微信群、QQ群 ，即送<b class="text-danger">30元红包</b>，详询微信，截图领取。</p>
+        <a href="{{ route('promote') }}"><h4>百度云盘！送 2017 最新 laravel 视频教程。</h4></a>
+        <p>分享此篇文章至各大社交平台 ，即送<b class="text-danger">30元红包</b>，详询微信号:<b class="text-danger">larapad</b>，凭有效截图领取。</p>
+        <p>活动截止日期：2017年5月31日23:59，本活动最终解释权归 <a href="http://larapad.com/">Larapad 官方网站</a>所有。</p>
       </div>
+      @endif
+
       <div class="row">
         @include('shared.messages')
         @yield('content')

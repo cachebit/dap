@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', '01_meet_Composer_laravel_5_fundamentals_laracasts')
+@section('title', 'the title')
 
 @section('content')
 <div class="col-md-9 col-md-push-3">

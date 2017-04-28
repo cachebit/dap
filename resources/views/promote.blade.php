@@ -44,8 +44,6 @@
   @endif
 </div>
 <div class="col-md-3 col-md-pull-9">
-  @include('app.left')
-  @include('pdfs.books._001')
-  @include('pdfs.books._002')
+  @include('app.contact')
 </div>
 @stop

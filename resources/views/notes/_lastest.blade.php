@@ -1,6 +1,5 @@
 <div>
-  <h3>最新 Laravel 视频教程笔记</h3>
-  <hr>
+  <h4>最新 Laravel 视频教程笔记</h4>
   <ul class="list-unstyled">
     <li>
       【<a href="/notes/laracasts">Laracasts</a>】
@@ -9,4 +8,5 @@
       <i class="pull-right">2017年4月23日</i>
     </li>
   </ul>
+  <hr>
 </div>

@@ -1,6 +1,5 @@
 <div>
-  <h3>站长推荐 Laravel 视频教程笔记</h3>
-  <hr>
+  <h4>Laravel 视频教程笔记推荐</h4>
   <ul class="list-unstyled">
     <li>
       【
@@ -10,4 +9,5 @@
       <i class="pull-right">2017年4月23日</i>
     </li>
   </ul>
+  <hr>
 </div>

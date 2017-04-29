@@ -5,14 +5,19 @@
   </div>
   <div class="panel-body">
     <ul class="list-inline">
-      <li><a href="/notes/composer">composer</a></li>
-      <li><a href="#">homestead</a></li>
-      <li><a href="#">环境配置</a></li>
-      <li><a href="/notes/controller">控制器</a></li>
-      <li><a href="/notes/laracasts">laracasts视频</a></li>
-      <li><a href="/notes/installation">laravel安装</a></li>
-      <li><a href="/notes/route">路由</a></li>
-      <li><a href="/notes/view">视图</a></li>
+      <li><a href="/tags/forms">表单</a></li>
+      <li><a href="/tags/blade">Blade</a></li>
+      <li><a href="/tags/composer">Composer</a></li>
+      <li><a href="/tags/eloquent">Eloquent</a></li>
+      <li><a href="/tags/homestead">Homestead</a></li>
+      <li><a href="/tags/configration">环境配置</a></li>
+      <li><a href="/tags/controller">控制器</a></li>
+      <li><a href="/notes/laracasts">Laracasts视频</a></li>
+      <li><a href="/tags/installation">Laravel安装</a></li>
+      <li><a href="/tags/mvc">MVC</a></li>
+      <li><a href="/tags/route">路由</a></li>
+      <li><a href="/tags/view">视图</a></li>
+      <li><a href="/tags/database">数据库</a></li>
     </ul>
   </div>
 </div>

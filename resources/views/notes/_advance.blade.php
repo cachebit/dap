@@ -5,6 +5,6 @@
     <!-- <a class="btn btn-default btn-block" href="#">点击查看>>更多基础教程</a> -->
   </div>
   <div class="panel-body">
-    @include('notes.laracasts.laravel_5_fundamentals.catalog')
+    
   </div>
 </div>

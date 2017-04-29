@@ -37,11 +37,16 @@ Route::post('password/reset', 'Auth\PasswordController@postReset')->name('passwo
 //types
 Route::get('/notes/{types}', 'TypesController@index');
 
+//tags
+Route::get('/tags/{types}', 'TagsController@index');
+
 //series
 Route::get('/notes/{types}/{series}', 'SeriesController@index');
 
 //notes
 Route::get('/notes/{types}/{series}/{title}', 'NotesController@show');
+
+
 
 //pdfs
 Route::get('/pdfs/laravel/laravel_fundamentals_chinese', function(){

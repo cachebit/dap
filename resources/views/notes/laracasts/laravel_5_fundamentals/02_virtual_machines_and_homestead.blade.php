@@ -16,8 +16,8 @@
     <p>
       <ul class="list-inline">
         <li>标签：</li>
-        <li><a href="/notes/homestead">homestead</a></li>
-        <li><a href="/notes/configration">环境配置</a></li>
+        <li><a href="/tags/homestead">homestead</a></li>
+        <li><a href="/tags/configration">环境配置</a></li>
         <li>QQ 群号：575709105</li>
       </ul>
     </p>

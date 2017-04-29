@@ -14,7 +14,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="/">首页</a></li>
-        <li><a href="/notes">laravel视频教程</a></li>
+        <li><a href="/notes">laravel视频教程笔记</a></li>
         <li><a href="/notes/laracasts">laracasts视频教程</a></li>
         <li><a href="/pdf">PDF 电子书</a></li>
       </ul>

@@ -16,9 +16,9 @@
     <p>
       <ul class="list-inline">
         <li>标签：</li>
-        <li><a href="/notes/route">路由</a></li>
-        <li><a href="/notes/controller">控制器</a></li>
-        <li><a href="/notes/view">视图</a></li>
+        <li><a href="/tags/route">路由</a></li>
+        <li><a href="/tags/controller">控制器</a></li>
+        <li><a href="/tags/view">视图</a></li>
         <li>QQ 群号：575709105</li>
       </ul>
     </p>

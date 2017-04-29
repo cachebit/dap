@@ -16,7 +16,7 @@
     <p>
       <ul class="list-inline">
         <li>标签：</li>
-        <li><a href="/notes/migration">数据库</a></li>
+        <li><a href="/tags/database">数据库</a></li>
         <li>QQ 群号：575709105</li>
       </ul>
     </p>

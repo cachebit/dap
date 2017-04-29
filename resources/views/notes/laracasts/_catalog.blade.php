@@ -1,7 +1,7 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4>
-      <a href="/notes/laracasts" target="_blank">Laracasts 视频教程</a>
+      <a href="/notes/laracasts" target="_blank">laracasts视频教程</a>
       笔记分类
       <small>
         <a href="/laracasts" alt="Laracasts 官网网站" target="_blank">

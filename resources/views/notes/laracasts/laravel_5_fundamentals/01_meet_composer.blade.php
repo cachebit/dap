@@ -16,8 +16,8 @@
     <p>
       <ul class="list-inline">
         <li>标签：</li>
-        <li><a href="/notes/composer">composer</a></li>
-        <li><a href="/notes/installation">laravel安装</a></li>
+        <li><a href="/tags/composer">composer</a></li>
+        <li><a href="/tags/installation">laravel安装</a></li>
         <li>QQ 群号：575709105</li>
       </ul>
     </p>

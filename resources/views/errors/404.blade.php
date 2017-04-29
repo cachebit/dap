@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>你访问的页面不存在 - Larapad 记录和分享 Laravel 视频教程笔记。</title>
-    <meta name="keywords" content='@yield('keywords', 'laravel 视频教程, laravel 教程')'>
+    <meta name="keywords" content='@yield('keywords', 'laravel视频教程, laravel教程')'>
     <meta name="description" content='@yield('description', 'Larapad.com 是 Laravel 爱好者记录和分享 Laravel 教程笔记，特别是 Laravel 视频教程笔记的网站。在这里即使你听不懂教程英语也没关系，看着 Laravel 视频教程笔记的重点，就可以轻松学习关键知识。期待你加入 Larapad.com')'>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 http://www.bootcdn.cn/ -->
@@ -47,9 +47,9 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li><a href="/">首页</a></li>
-              <li><a href="/notes">视频教程笔记</a></li>
+              <li><a href="/notes">laravel视频教程笔记</a></li>
+              <li><a href="/notes/laracasts">laracasts视频教程笔记</a></li>
               <li><a href="/pdf">PDF 电子书</a></li>
-              <li><a href="/catalog">快速查找</a></li>
             </ul>
           </div>
         </div>
@@ -73,81 +73,31 @@
         <div class="col-md-offset-3 col-md-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4> Laravel 基础教程</h4>
-              <p>本教程不仅包含基础知识，更贯穿了许多最佳实践做法，值得新手反复学习！强烈推荐！！！</p>
-              <!-- <a class="btn btn-default btn-block" href="#">点击查看>>更多基础教程</a> -->
+              <h4><a href="http://larapad.com/">laravel视频教程</a>分类</h4>
+              <p class="text-muted">按照a-z的音序排列</p>
             </div>
             <div class="panel-body">
-              <div>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                  <li role="presentation" class="active"><a href="#first_tab" aria-controls="home" role="tab" data-toggle="tab">1-10</a></li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="first_tab">
-                    <table class="table">
-                      <thead>
-                        <th>序号</th>
-                        <th>标题</th>
-                        <th>笔记</th>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>01</td>
-                          <td><a href="/notes/laracasts/laravel_5_fundamentals/01_meet_composer">认识 composer</a></td>
-                          <td><span class="label label-danger">OK</span></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-offset-3 col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4> Laravel 进阶教程</h4>
-              <p>本教程不仅包含基础知识，更贯穿了许多最佳实践做法，值得新手反复学习！强烈推荐！！！</p>
-              <!-- <a class="btn btn-default btn-block" href="#">点击查看>>更多基础教程</a> -->
-            </div>
-            <div class="panel-body">
-              <div>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                  <li role="presentation" class="active"><a href="#first_tab" aria-controls="home" role="tab" data-toggle="tab">1-10</a></li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="first_tab">
-                    <table class="table">
-                      <thead>
-                        <th>序号</th>
-                        <th>标题</th>
-                        <th>笔记</th>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>01</td>
-                          <td><a href="/notes/laracasts/laravel_5_fundamentals/01_meet_composer">认识 composer</a></td>
-                          <td><span class="label label-danger">OK</span></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
+              <ul class="list-inline">
+                <li><a href="/tags/forms">表单</a></li>
+                <li><a href="/tags/blade">Blade</a></li>
+                <li><a href="/tags/composer">Composer</a></li>
+                <li><a href="/tags/eloquent">Eloquent</a></li>
+                <li><a href="/tags/homestead">Homestead</a></li>
+                <li><a href="/tags/configration">环境配置</a></li>
+                <li><a href="/tags/controller">控制器</a></li>
+                <li><a href="/notes/laracasts">Laracasts视频</a></li>
+                <li><a href="/tags/installation">Laravel安装</a></li>
+                <li><a href="/tags/mvc">MVC</a></li>
+                <li><a href="/tags/route">路由</a></li>
+                <li><a href="/tags/view">视图</a></li>
+                <li><a href="/tags/database">数据库</a></li>
+              </ul>
             </div>
           </div>
         </div>
 
         <hr>
-        
+
         <div class="col-sm-12 col-md-offset-3 col-md-6">
           <p>(c)2017 Larapad.com 保留所有权利。 微信号：larapad</p>
         </div>

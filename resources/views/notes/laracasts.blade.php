@@ -1,5 +1,6 @@
 @extends('app')
-@section('title', 'Laracasts 视频教程')
+@section('title', 'laracasts视频教程_laracasts教程')
+@section('keywords', 'laracasts视频教程,laracasts教程')
 
 @section('content')
 <div class="col-md-9">

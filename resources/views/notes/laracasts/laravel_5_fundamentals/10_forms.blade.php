@@ -16,7 +16,9 @@
     <p>
       <ul class="list-inline">
         <li>标签：</li>
-        <li><a href="/notes/form">表单</a></li>
+        <li><a href="/tags/form">表单</a></li>
+        <li><a href="/tags/view">视图</a></li>
+        <li><a href="/tags/bladew">Blade</a></li>
         <li>QQ 群号：575709105</li>
       </ul>
     </p>

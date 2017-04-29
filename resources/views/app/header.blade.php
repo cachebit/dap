@@ -1,7 +1,7 @@
 <header>
   <div class="row">
     <div class="col-md-8">
-      <h1><a href="http://larapad.com">Larapad </a><small>记录和分享 Laravel 视频教程笔记。</small></h1>
+      <h1><a href="http://larapad.com/">Larapad </a><small>记录和分享laravel视频教程笔记。</small></h1>
     </div>
     <div class="col-md-4">
       <nav class="pull-right">
@@ -26,7 +26,6 @@
                 </li>
               </ul>
             </li>
-            <li role="presentation"><a href="{{ route('users.index') }}">用户列表</a></li>
           @else
             <li role="presentation"><a href="{{ route('signup') }}">注册</a></li>
             <li role="presentation"><a href="{{ route('signin') }}">登录</a></li>

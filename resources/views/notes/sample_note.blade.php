@@ -13,7 +13,7 @@
 
   <section><!-- infomations  -->
     <h2>01 meet Composer - 认识 Composer</h2>
-    <p>官方网站：<a href="https://laracasts.com/" rel="nofollow">https://laracasts.com/</a></p>
+    <p>官方网站：<a href="https://laracasts.com/" rel="nofollow" target="_blank">https://laracasts.com/</a></p>
     <p>标签：</p>
     <hr>
     <h3>简介</h3>

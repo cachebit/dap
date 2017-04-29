@@ -48,7 +48,8 @@
   </div>
 </div>
 <div class="col-md-3 col-md-pull-6">
-  @include('app.left')
+  @include('notes._basic')
+  @include('notes._advance')
 </div>
 <div class="col-md-3">
   @include('app.tags')

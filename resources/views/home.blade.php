@@ -3,9 +3,9 @@
 
 @section('content')
 <div class="col-md-6 col-md-push-3">
-  @include('notes._lastest')
-
   @include('notes._promote')
+
+  @include('notes._lastest')
 
   @include('pdfs._promote')
 </div>

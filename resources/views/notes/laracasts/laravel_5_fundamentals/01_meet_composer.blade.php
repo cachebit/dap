@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', '01_meet_Composer_laravel_5_fundamentals_laracasts')
+@section('title', '01_认识composer_meet_Composer_laravel5基础视频教程_laracasts')
 
 @section('content')
 <div class="col-md-9 col-md-push-3">
@@ -7,24 +7,37 @@
     <p>
       <a href="/notes">视频教程笔记</a> /
       <a href="/notes/laracasts">laracasts</a> /
-      <a href="/notes/laracasts/laravel_5_fundamentals">laravel_5_fundamentals</a>
+      <a href="/notes/laracasts/laravel_5_fundamentals">laravel 5 基础视频教程</a>
     </p>
   </section>
 
   <section><!-- infomations  -->
-    <h2>01 meet Composer - 认识 Composer</h2>
-    <p>官方网站：<a href="https://laracasts.com/" rel="nofollow">https://laracasts.com/</a></p>
-    <p>标签：</p>
+    <h2>01 认识 Composer - meet Composer</h2>
+    <p>
+      <ul class="list-inline">
+        <li>标签：</li>
+        <li><a href="/notes/composer">composer</a></li>
+        <li><a href="/notes/installation">laravel安装</a></li>
+        <li>QQ 群号：575709105</li>
+      </ul>
+    </p>
     <hr>
-    <h3>简介</h3>
+    <ol>
+      <li><a href="#introduction">laravel 视频教程《认识 Composer》简介</a></li>
+      <li><a href="#note">laravel 视频教程《认识 Composer》笔记</a></li>
+      <li><a href="#link">laravel 视频教程《认识 Composer》地址</a></li>
+    </ol>
+    <h3 id="introduction">laravel 视频教程《认识 Composer》简介</h3>
     <p>在我们开始使用 Laravel 之前，您首先需要了解作为 PHP 的首要依赖管理器的 Composer 。</p>
     <p>此系列教程假设用户从未接触过 Laravel ，以 Laravel 5 为例进行基础知识教学。</p>
     <p>此系列<a href="http://larapad.com" target="_blank">laravel视频教程</a>教学速度适中，确保了知识点覆盖、趣味性以及新手的可接纳性。</p>
     <p>正式开始。</p>
   </section>
 
-  @if(!Auth::check())
+
   <section><!-- main content  -->
+    <h3 id="note">laravel 视频教程《认识 Composer》笔记</h3>
+    @if(Auth::check())
     <p>PHP 近几年的最大进步是引入了 Composer作为包依赖管理工具 （官网链接：
     <a href="https://getcomposer.org" rel="nofollow" target="_blank">https://getcomposer.org</a>）。在这之前很多包依赖管理工具是不太友好的并且使用过程令人不太愉快的。而 Composer 则令包依赖管理变得非常简单。</p>
     <p>它的作用是提供了一个重复使用任何的代码的良好方式，而不是重复的制造轮子，我们可以十分快捷的下载流行的包，而且 Laravel 本身就采用了很多第三方包，良好的利用了 PHP 的生态（想了解有哪些包，直接访问
@@ -46,18 +59,33 @@
     <p><code>$php -S localhost:8888 -t public</code></p>
     <p>如果你跟上了，并且看到了欢迎页，恭喜你。当然这里也会存在很多问题，linux 和 windows 以及 mac 的解决方法都不一样。幸好我们已经有了一个终极的解决方案：Homestead。</p>
     <p>下一节将讲解 homestead 。</p>
+    @else
+    <div class="jumbotron">
+      <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
+      <p>没有账号请<a class="btn btn-primary" href="/signup" rel="nofollow" target="_blank">注册</a>。</p>
+      <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
+    </div>
+    @endif
     <hr>
-    <p>laravel 视频教程下载地址</p>
-    <p>视频链接：<a href="http://pan.baidu.com/s/1nuPGxWP" rel="nofollow" target="_blank">http://pan.baidu.com/s/1nuPGxWP</a> 密码：8oxz</p>
-    <p class="alert alert-danger">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
   </section>
-  @endif
+  <section>
+    <h3 id="link">laravel 视频教程《认识 Composer》下载地址</h3>
+    <p>百度云盘链接：<a href="http://pan.baidu.com/s/1nuPGxWP" rel="nofollow" target="_blank">http://pan.baidu.com/s/1nuPGxWP</a> 密码：8oxz</p>
+    <p class="well">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
+  </section>
+  <section>
+    <a class="btn btn-default" rel="nofollow">没有上一课了。</a>
+    <a class="btn btn-primary pull-right" href="/notes/laracasts/laravel_5_fundamentals/02_virtual_machines_and_homestead">
+      02 认识虚拟机和 Homestead</a>
+  </section>
+
 
   <hr>
 
   @include('app.tags')
 </div>
 <div class="col-md-3 col-md-pull-9">
-  @include('app.left')
+  @include('notes._basic')
+  @include('notes._advance')
 </div>
 @stop

@@ -4,7 +4,7 @@
 @section('content')
 <div class="col-md-6 col-md-push-3">
   <div class="well">
-    <a href="https://laracasts.com" rel="nofollow" alt="Laracasts 官网链接">点击进入>> Laracasts 官网</a>
+    <a href="https://laracasts.com/" rel="nofollow" alt="Laracasts 官网链接">点击进入>> Laracasts 官网</a>
   </div>
   @include('notes._lastest')
 

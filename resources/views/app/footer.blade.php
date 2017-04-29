@@ -1,5 +1,8 @@
-<div class="row">
-  <div class="col-sm-12 col-md-offset-3 col-md-6">
-    <p>(c)2017 Larapad.com 保留所有权利。 微信号：larapad</p>
-  </div>
-</div>
+<footer>
+  <p class="text-center">
+    (c)2017 Larapad.com
+    <a href="http://larapad.com/">
+      lavavel视频教程笔记网
+    </a>
+    保留所有权利。 微信号：larapad</p>
+</footer>

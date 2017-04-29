@@ -5,7 +5,7 @@
   </div>
   <div class="panel-body">
     <p>本站为了方便 laravel 爱好者更加高效的交流 <a href="http://larapad.com/">laravel 视频教程</a>学习心得采用<strong>邀请注册</strong>的方式，如果你觉得自己是一个热爱学习，能够坚持，乐于助人的三好程序猿，欢迎你加入我们。</p>
-    <p>注册请加微信号：<i class="text-danger">larapad</i>。</p>
+    <p>注册/激活请加微信：<i class="text-danger">larapad</i>。</p>
     <p>或扫描二维码添加。</p>
     <img class="img-responsive" src="/imgs/site/wechat.png" alt="larapad微信号的二维码">
     <hr>

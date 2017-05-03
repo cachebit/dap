@@ -37,7 +37,7 @@
 
   <section><!-- main content  -->
     <h3 id="note">laravel 视频教程《认识 Composer》笔记</h3>
-    @if(Auth::check())
+
     <p>PHP 近几年的最大进步是引入了 Composer作为包依赖管理工具 （官网链接：
     <a href="https://getcomposer.org" rel="nofollow" target="_blank">https://getcomposer.org</a>）。在这之前很多包依赖管理工具是不太友好的并且使用过程令人不太愉快的。而 Composer 则令包依赖管理变得非常简单。</p>
     <p>它的作用是提供了一个重复使用任何的代码的良好方式，而不是重复的制造轮子，我们可以十分快捷的下载流行的包，而且 Laravel 本身就采用了很多第三方包，良好的利用了 PHP 的生态（想了解有哪些包，直接访问
@@ -59,6 +59,14 @@
     <p><code>$php -S localhost:8888 -t public</code></p>
     <p>如果你跟上了，并且看到了欢迎页，恭喜你。当然这里也会存在很多问题，linux 和 windows 以及 mac 的解决方法都不一样。幸好我们已经有了一个终极的解决方案：Homestead。</p>
     <p>下一节将讲解 homestead 。</p>
+
+    <hr>
+  </section>
+  <section>
+    <h3 id="link">laravel 视频教程《认识 Composer》下载地址</h3>
+    @if(Auth::check())
+    <p>百度云盘链接：<a href="http://pan.baidu.com/s/1nuPGxWP" rel="nofollow" target="_blank">http://pan.baidu.com/s/1nuPGxWP</a> 密码：8oxz</p>
+    <p class="well">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
     @else
     <div class="jumbotron">
       <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
@@ -66,12 +74,6 @@
       <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
     </div>
     @endif
-    <hr>
-  </section>
-  <section>
-    <h3 id="link">laravel 视频教程《认识 Composer》下载地址</h3>
-    <p>百度云盘链接：<a href="http://pan.baidu.com/s/1nuPGxWP" rel="nofollow" target="_blank">http://pan.baidu.com/s/1nuPGxWP</a> 密码：8oxz</p>
-    <p class="well">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
   </section>
   <section>
     <a class="btn btn-default" rel="nofollow">没有上一课了。</a>

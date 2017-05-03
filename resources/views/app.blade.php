@@ -23,7 +23,7 @@
 
       @if(!Auth::check())
       <div class="alert alert-warning">
-        <a href="{{ route('promote') }}"><h4>百度云盘链接 最新 laravel 视频教程。</h4></a>
+        <a href="{{ route('promote') }}"><h4>百度云盘下载 最新 laravel 视频教程。</h4></a>
         <p>分享此文章至QQ群、微信群、QQ空间、微信朋友圈等 ，即送<b class="text-danger">30元红包</b>，加微信号:<b class="text-danger">larapad</b>领取。</p>
         <p>活动5月31日23:59截止，以 <a href="http://larapad.com/">Larapad 官方网站</a>通知为准。</p>
       </div>

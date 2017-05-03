@@ -26,7 +26,7 @@
     <tr>
       <td>03</td>
       <td>
-        <a href="/notes/laracasts/laravel_5_fundamentals/03_a_gentle_introduction_to_routing_controllers_and_Views">
+        <a href="/notes/laracasts/laravel_5_fundamentals/03_a_gentle_introduction_to_routing_controllers_and_views">
           路由、控制器和视图简介
         </a>
       </td>

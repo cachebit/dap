@@ -23,25 +23,33 @@
     </p>
     <hr>
     <ol>
-      <li><a href="#introduction">laravel视频教程《认识虚拟机和 Homestead》简介</a></li>
-      <li><a href="#note">laravel视频教程《认识虚拟机和 Homestead》笔记</a></li>
-      <li><a href="#link">laravel视频教程《认识虚拟机和 Homestead》地址</a></li>
+      <li><a href="#introduction">简介</a></li>
+      <li><a href="#note">笔记</a></li>
+      <li><a href="#link">下载地址</a></li>
     </ol>
 
-    <h3 id="introduction">laravel视频教程《认识虚拟机和 Homestead》简介</h3>
+    <h3 id="introduction">简介</h3>
     <p>你也许在配置 php/laravel 开发环境的时候经常遇到问题，那么就是是 Homestead 吧！它将成为你技术成长过程种的强大后盾。</p>
     <p>正式开始。</p>
   </section>
 
   <section><!-- main content  -->
-    <h3 id="note">laravel视频教程《认识虚拟机和 Homestead》笔记</h3>
+    <h3 id="note">笔记</h3>
     <p>英文渣催更请戳微信：larapad 或 QQ 群：575709105，反馈多的视频优先更新！欢迎字幕君联系！</p>
   </section>
 
   <section>
-    <h3 id="link">laravel视频教程《认识虚拟机和 Homestead》下载地址</h3>
+    <h3 id="link">laravel视频教程下载地址</h3>
+    @if(Auth::check())
     <p>百度云盘链接：<a href="http://pan.baidu.com/s/1i5oRnSh" rel="nofollow" target="_blank">http://pan.baidu.com/s/1i5oRnSh</a> 密码：a3qu</p>
     <p class="well">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
+    @else
+    <div class="jumbotron">
+      <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
+      <p>没有账号请<a class="btn btn-primary" href="/signup" rel="nofollow" target="_blank">注册</a>。</p>
+      <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
+    </div>
+    @endif
   </section>
 
   <section>

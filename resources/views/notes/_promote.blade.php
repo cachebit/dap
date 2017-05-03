@@ -1,4 +1,4 @@
-<div class="col-sm-12">
+<div>
   <h4>laravel视频教程笔记推荐</h4>
   <ul class="list-unstyled">
     <li>

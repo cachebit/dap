@@ -18,11 +18,12 @@
     <p>你是否希望提升自己的技术水平？那么看这个系列的视频就对了。这个系列的视频会从安装开始一步一步带你掌握 laravel 框架的重要功能。</p>
   </section>
   <section>
+    <img class="img-responsive" src="/imgs/site/laravel_promote.png" alt="laravel poster">
     <h4>课程目录</h4>
     @include('_promote_table')
   </section>
 
-  @if(Auth::check())
+  @if(!Auth::check())
 
   <div class="jumbotron">
     <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>

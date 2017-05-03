@@ -23,22 +23,22 @@
     </p>
     <hr>
     <ol>
-      <li><a href="#introduction">laravel视频教程《给视图传递数据》简介</a></li>
-      <li><a href="#note">laravel视频教程《给视图传递数据》笔记</a></li>
-      <li><a href="#link">laravel视频教程《给视图传递数据》地址</a></li>
+      <li><a href="#introduction">简介</a></li>
+      <li><a href="#note">笔记</a></li>
+      <li><a href="#link">下载地址</a></li>
     </ol>
 
-    <h3 id="introduction">laravel视频教程《给视图传递数据》简介</h3>
+    <h3 id="introduction">简介</h3>
     <p>正式开始。</p>
   </section>
 
   <section><!-- main content  -->
-    <h3 id="note">laravel视频教程《给视图传递数据》笔记</h3>
+    <h3 id="note">笔记</h3>
     <p>英文渣催更请戳微信：larapad 或 QQ 群：575709105，反馈多的视频优先更新！欢迎字幕君联系！</p>
   </section>
 
   <section>
-    <h3 id="link">laravel视频教程《给视图传递数据》下载地址</h3>
+    <h3 id="link">下载地址</h3>
     <p>
       百度云盘链接：
       <a href="http://pan.baidu.com/s/1i5gJJLV" rel="nofollow" target="_blank">

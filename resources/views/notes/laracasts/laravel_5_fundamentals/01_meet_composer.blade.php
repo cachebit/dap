@@ -23,11 +23,11 @@
     </p>
     <hr>
     <ol>
-      <li><a href="#introduction">laravel 视频教程《认识 Composer》简介</a></li>
-      <li><a href="#note">laravel 视频教程《认识 Composer》笔记</a></li>
-      <li><a href="#link">laravel 视频教程《认识 Composer》地址</a></li>
+      <li><a href="#introduction">简介</a></li>
+      <li><a href="#note">笔记</a></li>
+      <li><a href="#link">下载地址</a></li>
     </ol>
-    <h3 id="introduction">laravel 视频教程《认识 Composer》简介</h3>
+    <h3 id="introduction">简介</h3>
     <p>在我们开始使用 Laravel 之前，您首先需要了解作为 PHP 的首要依赖管理器的 Composer 。</p>
     <p>此系列教程假设用户从未接触过 Laravel ，以 Laravel 5 为例进行基础知识教学。</p>
     <p>此系列<a href="http://larapad.com" target="_blank">laravel视频教程</a>教学速度适中，确保了知识点覆盖、趣味性以及新手的可接纳性。</p>
@@ -36,7 +36,7 @@
 
 
   <section><!-- main content  -->
-    <h3 id="note">laravel 视频教程《认识 Composer》笔记</h3>
+    <h3 id="note">笔记</h3>
 
     <p>PHP 近几年的最大进步是引入了 Composer作为包依赖管理工具 （官网链接：
     <a href="https://getcomposer.org" rel="nofollow" target="_blank">https://getcomposer.org</a>）。在这之前很多包依赖管理工具是不太友好的并且使用过程令人不太愉快的。而 Composer 则令包依赖管理变得非常简单。</p>
@@ -63,17 +63,10 @@
     <hr>
   </section>
   <section>
-    <h3 id="link">laravel 视频教程《认识 Composer》下载地址</h3>
-    @if(Auth::check())
+    <h3 id="link">下载地址</h3>
     <p>百度云盘链接：<a href="http://pan.baidu.com/s/1nuPGxWP" rel="nofollow" target="_blank">http://pan.baidu.com/s/1nuPGxWP</a> 密码：8oxz</p>
     <p class="well">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
-    @else
-    <div class="jumbotron">
-      <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
-      <p>没有账号请<a class="btn btn-primary" href="/signup" rel="nofollow" target="_blank">注册</a>。</p>
-      <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
-    </div>
-    @endif
+    
   </section>
   <section>
     <a class="btn btn-default" rel="nofollow">没有上一课了。</a>

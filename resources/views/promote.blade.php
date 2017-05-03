@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="col-md-9 col-md-push-3">
-  <h3>laracasts视频下载_laracasts百度网盘_laracasts字幕</h3>
+  <h3>百度云盘下载 最新laravel视频教程。</h3>
   <hr>
   <section>
     <p>laracasts百度网盘链接 2017 最新
@@ -23,13 +23,16 @@
     @include('_promote_table')
   </section>
 
+  <h4>下载地址：</h4>
   @if(!Auth::check())
+  <section>
+    <div class="jumbotron">
+      <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
+      <p>没有账号请<a class="btn btn-primary" href="/signup" rel="nofollow" target="_blank">注册</a>。</p>
+      <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
+    </div>
+  </section>
 
-  <div class="jumbotron">
-    <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
-    <p>没有账号请<a class="btn btn-primary" href="/signup" rel="nofollow" target="_blank">注册</a>。</p>
-    <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
-  </div>
 
   @else
   <section>

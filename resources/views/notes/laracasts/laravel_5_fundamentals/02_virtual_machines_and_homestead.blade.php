@@ -39,17 +39,10 @@
   </section>
 
   <section>
-    <h3 id="link">laravel视频教程下载地址</h3>
-    @if(Auth::check())
+    <h3 id="link">下载地址</h3>
     <p>百度云盘链接：<a href="http://pan.baidu.com/s/1i5oRnSh" rel="nofollow" target="_blank">http://pan.baidu.com/s/1i5oRnSh</a> 密码：a3qu</p>
     <p class="well">注意：本站仅分享笔记，所有其它资源均来源于网络搜索结果，仅作参考，需要教学视频，请支持购买正版，官方网站：<a href="https://laracasts.com" target="_blank" rel="nofollow">laracasts.com</a>。</p>
-    @else
-    <div class="jumbotron">
-      <p>该部分内容已隐藏，您无法看到是因为尚未<a class="btn btn-primary" href="/signin" rel="nofollow" target="_blank">登录</a>。</p>
-      <p>没有账号请<a class="btn btn-primary" href="/signup" rel="nofollow" target="_blank">注册</a>。</p>
-      <p class="text-right">Larapad - 记录和分享 Laravel 视频教程笔记。</p>
-    </div>
-    @endif
+    
   </section>
 
   <section>
